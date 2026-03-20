@@ -38,7 +38,7 @@ async function sendTelegramMessage(): Promise<void> {
     throw new Error("Missing BOT_TOKEN or CHANNEL_ID");
   }
 
-  const text = `btw i'm a male - ${new Date().toISOString()}`;
+  const text = `btw i'm a man!`;
   const endpoint = `https://api.telegram.org/bot${botToken}/sendMessage`;
 
   const response = await fetch(endpoint, {
